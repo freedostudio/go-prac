@@ -12,3 +12,7 @@ type Dog struct {
 func (d *Dog) MakeSound() {
 	fmt.Println("wang wang")
 }
+
+func (d *Dog) Run() {
+	fmt.Println("dog run!")
+}
